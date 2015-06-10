@@ -23,6 +23,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+=======
+        <activity 
+            android:name=".Saving_frame_input"
+            android:label="@string/app_name" >
+        </activity>
+>>>>>>> a1d35309ad390b3a2be80539f3ebe7f3e4ac8021
     </application>
 
 </manifest>
