@@ -23,7 +23,12 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+<<<<<<< HEAD
+        public static final int path5492=0x7f020001;
+        public static final int splash=0x7f020002;
+=======
         public static final int nekko=0x7f020001;
+>>>>>>> branch 'master' of https://aso1301002@github.com/blackfantasyaso/blackfantasy.git
     }
     public static final class id {
         public static final int Etext_tyokin=0x7f080001;
@@ -34,9 +39,14 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+<<<<<<< HEAD
+        public static final int title=0x7f030001;
+        public static final int treenekko=0x7f030002;
+=======
         public static final int home=0x7f030001;
         public static final int saving_frame_input=0x7f030002;
         public static final int treenekko=0x7f030003;
+>>>>>>> branch 'master' of https://aso1301002@github.com/blackfantasyaso/blackfantasy.git
     }
     public static final class menu {
         public static final int main=0x7f070000;
