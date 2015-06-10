@@ -3,6 +3,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:text="貯金額入力"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/Etext_tyokin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_touroku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="登録"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:textSize="40sp" />
 
 </LinearLayout>
