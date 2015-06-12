@@ -6,15 +6,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-<<<<<<< HEAD
-    tools:context="com.kadai.kaneki.TreeNekko.java" >
-=======
     tools:context="com.kadai.kaneki.treenekko" >
->>>>>>> branch 'master' of https://aso1301002@github.com/blackfantasyaso/blackfantasy.git
+
 
     <TextView
+        android:id="@+id/textview"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-         />
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
