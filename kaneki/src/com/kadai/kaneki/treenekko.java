@@ -4,29 +4,17 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
+import android.content.Context;
+import android.content.res.Resources;
+import android.view.View;
+import android.graphics.*;
 
-public class home extends Activity {
+public class treenekko extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
-		//adapter�̍쐬
-		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-				android.R.layout.simple_spinner_item);
-		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-		adapter.add("greeen");
-		adapter.add("red");
-		adapter.add("yellow");
-		
-		
-		
-		
-		
-				
 	}
 
 	@Override
@@ -46,5 +34,21 @@ public class home extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	public class Screen extends View {
+		
+		public Screen(Context context) {
+			super(context);
+		}
+		
+		@Override
+		protected void onDraw(Canvas c) {
+			super.onDraw(c);
+			Paint p = new Paint();
+			Bitmap img0, img1;
+			
+			Resources res = this.getContext().getResources();
+		}
+
 	}
 }
