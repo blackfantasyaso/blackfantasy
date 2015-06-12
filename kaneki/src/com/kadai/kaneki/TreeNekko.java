@@ -4,8 +4,12 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.content.Context;
+import android.content.res.Resources;
+import android.view.View;
+import android.graphics.*;
 
-public class TreeNekko extends Activity {
+public class treenekko extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -30,5 +34,21 @@ public class TreeNekko extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	public class Screen extends View {
+		
+		public Screen(Context context) {
+			super(context);
+		}
+		
+		@Override
+		protected void onDraw(Canvas c) {
+			super.onDraw(c);
+			Paint p = new Paint();
+			Bitmap img0, img1;
+			
+			Resources res = this.getContext().getResources();
+		}
+
 	}
 }
